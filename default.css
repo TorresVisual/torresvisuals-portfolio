@@ -1,3 +1,7 @@
+@font-face {
+src: url(fonts/ZenDots-Regular.ttf);
+font-family: zen;	
+}
 :root{
 	--mainColor:#eaeaea;
 	--secondaryColor:#fff;
@@ -32,13 +36,13 @@ body *{
 
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
-	font-family: 'Zen Dots', sans-serif;
+	font-family: zen;
 	font-weight: 500;
 }
 
 p, li, span, label, input, textarea{
 	color: var(--secondaryText);
-	font-family: 'Zen Dots', monospace;
+	font-family: zen;
 }
 
 a{
