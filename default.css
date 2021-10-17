@@ -3,21 +3,21 @@ src: url(images/ZenDots-Regular.ttf);
 font-family: zen;	
 }
 :root{
-	--mainColor:#eaeaea;
-	--secondaryColor:#fff;
+	--mainColor:#192734;
+	--secondaryColor:#192734;
 
-	--borderColor:#c1c1c1;
+	--borderColor:#164D56;
 
-	--mainText:black;
-	--secondaryText:#4b5156;
+	--mainText:white;
+	--secondaryText:#eeeeee;
 
-	--themeDotBorder:#24292e;
+	--themeDotBorder:#FFF;
 
-	--previewBg:rgb(251, 249, 243, 0.8);
-	--previewShadow:#f0ead6;
+	--previewBg:rgb(25, 39, 52, 0.8);
+	--previewShadow:#111921;
 
 
-	--buttonColor:black;
+	--buttonColor:#17a2b8;
 
 
 }
@@ -54,9 +54,10 @@ ul{
 	list-style: none;
 }
 
+p {font-size: 15px;}
 h1 { font-size: 56px;}
 h2 { font-size: 36px;}
-h3 { font-size: 28px;}
+h3 { font-size: 24px;}
 h4 { font-size: 24px;}
 h5 { font-size: 20px;}
 h6 { font-size: 16px;}
